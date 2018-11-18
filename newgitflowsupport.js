@@ -1,5 +1,5 @@
 var graphConfig = new GitGraph.Template({
-  colors: [ "#9993FF", "#47E8D4", "#6BDB52", "#F85BB5", "#FFA657", "#F85BB5" ],
+  colors: [ "#9993FF", "#47E8D4", "#6BDB52", "#F85BB5", "#FFA657", "#ffff00", "#ff3c3c", "#58a958", "#40caee", "#9f5fdb", "#c7a9a9" ],
   branch: {
     color: "#000000",
     lineWidth: 3,
@@ -47,19 +47,19 @@ var betaCol = 2;
 var betaHotfixCol = 3;
 var release1Col = 4;
 var release1fixCol = 5;
-var release2Col = 6;
-var release2fixCol = 7;
-var release3Col = 8;
-var release3fixCol = 9;
-var developCol = 10;
-var feature1Col = 11;
-var feature2Col = 12;
-var feature3Col = 13;
-var feature4Col = 14;
-var feature5Col = 15;
-var feature6Col = 16;
-var feature7Col = 17;
-var feature8Col = 18;
+var release2Col = 4;
+var release2fixCol = 5;
+var release3Col = 6;
+var release3fixCol = 7;
+var developCol = 8;
+var feature1Col = 9;
+var feature2Col = 10;
+var feature3Col = 9;
+var feature4Col = 10;
+var feature5Col = 9;
+var feature6Col = 10;
+var feature7Col = 9;
+var feature8Col = 10;
 
 var gitgraph = new GitGraph(config);
 
